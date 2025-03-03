@@ -1,7 +1,7 @@
 # **Funny Quote Generator**
 
 Welcome to the **Funny Quote Generator**, a simple and fun web application that generates random funny quotes to brighten your day! This project was built with **HTML**, **CSS**, and **JavaScript**, and it is fully responsive, ensuring a great user experience on all devices.
-click on this link to view the actul page.  [Funny-Quote-Generator-Projects](https://msmith71910.github.io/funny-quote-generator/) - 
+click on this link to view the actual page.  [Funny-Quote-Generator-Projects](https://msmith71910.github.io/funny-quote-generator/) - 
 ---
 
 ## **Features**
