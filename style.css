@@ -1,0 +1,92 @@
+/* Apply box-sizing to all elements for consistent sizing */
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+/* Reset body styles */
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #f3f0f7;
+  background-image: url('circuit-board.svg'); /* Example background pattern */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Main quote container */
+.quote-container {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  color: #fff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading styles */
+.quote-container h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+/* Quote text */
+#quote-display {
+  font-size: 1.4rem;
+  margin-bottom: 1.5em;
+  line-height: 1.6;
+}
+
+/* Button container */
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Buttons */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Copy button icon */
+button i {
+  margin-right: 5px;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+  .quote-container {
+    padding: 15px 20px;
+  }
+
+  #quote-display {
+    font-size: 1.2rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+}
